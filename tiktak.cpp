@@ -1,5 +1,4 @@
-#include "tiktak.h"
-#include <iostream>
+#include "Main.h"
 Tiktak_board::Tiktak_board() {
     next_up = 0;
     winner = 4;
