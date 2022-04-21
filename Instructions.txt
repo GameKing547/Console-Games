@@ -1,0 +1,11 @@
+Games:
+	Nothing(Quits)
+	Tiktaktoe
+		
+Tiktaktoe:
+	Enter x Value then enter y value (Top left is 1,1)
+
+Want to play another game:
+
+	Yes
+	No

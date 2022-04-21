@@ -29,6 +29,10 @@ void tiktaktoe() {
         cout << "Player 2 Wins!\n";
     }
 };
+void rph() {
+    Rps_board game;
+    game.playround("Rock");
+}
 int pickgame(bool &quit) {
      string response;
     cout << "What game do you want to play?\n";
@@ -43,7 +47,11 @@ ask:
         quit = false;
         return 0;
     }
-    else {
+    else if (response == "Rock-Paper-Scissors") {
+        rph();
+        quit = false;
+        return 0;
+    } else {
         cout << "Sorry I didnt understand that could you try again?\n";
         goto ask;
     }
