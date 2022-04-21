@@ -140,11 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Rph.cpp" />
     <ClCompile Include="tiktak.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Rph.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="tiktak.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Instructions.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
